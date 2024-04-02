@@ -1,10 +1,10 @@
-# Title (replace with your title)
+# Regex Email tutorial 
 
-Introductory paragraph (replace this with your text)
+In this tutorial, I will breakdown one of the most commonly used expressions known as "Matching an Email".
 
 ## Summary
-
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Matching an Email: 
+This breakdown will include the function & the major conecepts that Regex utilises to make sure the string that was given matches the template to verify an email adress. 
 
 ## Table of Contents
 
@@ -15,35 +15,32 @@ Briefly summarize the regex you will be describing and what you will explain. In
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
 ### Anchors
+^: Must be needed to start the beginning of the string.
+$: Must be needed to end the string. 
+Both anchors are necessary to complete a full string & make sure the regex matches the email. 
 
 ### Quantifiers
++: Needed to match one or more elements 
+{2,6}: Given the range of 2 to 6 characters to be match inside of the brackets.
 
 ### OR Operator
+|: Allows any alternative matching patters 
 
 ### Character Classes
-
-### Flags
+Predefined & special characters that match a single character from a group.
 
 ### Grouping and Capturing
+(): Within the set of  parentheses is taken as a single group & allows the elements to be a single unit. 
 
 ### Bracket Expressions
-
-### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
+[]:Within the brackets, characters inside will be considered in a group.
+Combined with a quantifier + all characters will match inside the brackets.
 
 ## Author
-
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Ronaldo Faz : https://github.com/DonConcha
