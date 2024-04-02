@@ -30,7 +30,7 @@ Both anchors are necessary to complete a full string & make sure the regex match
 `{2,6}`: Given the range of 2 to 6 characters to be match inside of the brackets.
 
 ### OR Operator
-|: Allows any alternative matching patters 
+`|`: Allows any alternative matching patters 
 
 ### Character Classes
 Predefined & special characters that match a single character from a group.
